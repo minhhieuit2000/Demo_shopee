@@ -9,6 +9,7 @@
     --header-height: 120px;
     --navbar-height: 70px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height: 46px
 }
 
 *{
@@ -25,16 +26,6 @@ html {
 }
 
 /* Responsive */
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
 /* Nguyên tắc chia row - column */
 /* Lên 1 hàng, wrap cho những thuộc tính dài sẽ bị đẩy xuống */
 .grid__row {
